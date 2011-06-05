@@ -1,6 +1,8 @@
 <?php
-if (!isset($doo)) {
+if ($_GET['doo'] == NULL) {
 	$doo = 3;
+} else {
+	$doo = $_GET['doo'];
 }
 ?>
 <HEAD>
