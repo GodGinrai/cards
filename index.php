@@ -1,3 +1,8 @@
+<?php
+if (!isset($doo)) {
+	$doo = 3;
+}
+?>
 <HEAD>
 <TITLE>CARD GAMES ON MOTORCYCLES!!!!!!</TITLE>
 </HEAD>
