@@ -5,16 +5,22 @@ if ($_GET['doo'] == NULL) {
 	$doo = $_GET['doo'];
 }
 ?>
-<HEAD>
-<TITLE>CARD GAMES ON MOTORCYCLES!!!!!!</TITLE>
-</HEAD>
-<BODY>
-<H1>IT'S TIME TO</H1>
-<BR><BR><BR><BR><BR><BR><BR>
-<H2>Doodoodoodoo</H2>
-<H1>Doo<?php
+<head>
+<title>CARD GAMES ON MOTORCYCLES!!!!!!</title>
+</head>
+<body>
+<h1>IT'S TIME TO</h1>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<h2>Doodoodoodoo</h2>
+<h1>Doo<?php
 for ($i = 0; $i < $doo; $i++) {
 	print "doo";
 }
-?>Duel!</H1>
-</BODY>
+?>Duel!</h1>
+</body>
